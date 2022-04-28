@@ -15,7 +15,7 @@ def main():
     for red in range(256):
         for green in range(256):
             for blue in range(256):
-                print("RGB({0}, {1}, {2})".format(red, green, blue))
+                print("RGB({0},{1},{2})".format(red, green, blue))
 
     print("\nDone.")
 
