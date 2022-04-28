@@ -7,12 +7,11 @@
 
 def main():
     # this function prints all possible RGB values.
-
-    # process (kinda), input
     red = 0
     green = 0
     blue = 0
 
+    # process, output
     for red in range(256):
         for green in range(256):
             for blue in range(256):
